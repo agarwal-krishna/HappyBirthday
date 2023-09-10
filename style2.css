@@ -1,0 +1,237 @@
+body{
+    overflow: hidden;
+  }
+  .iphone{
+    border: 10px solid black;
+    border-radius: 35px;
+    margin-left: 420px;
+    margin-top: -400px;
+    position: relative;
+    height: 600px;
+    width: 300px;
+    background-image: url("homescreen.jpeg");
+    background-size: cover;
+    position: sticky;
+  }
+  .header{
+    height: 10px;
+    width: 150px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 0px 0px 20px 20px;
+    margin: auto;
+  }
+  .speaker{
+    border-radius: 2px;
+    border: 1px solid rgb(82, 80, 80);
+    margin-left: 20px;
+    height: 4px;
+    width: 70px;
+    background-color: rgb(87, 84, 84);
+  }
+  .camera{
+    border-radius: 50%;
+    border: 1px solid rgb(82, 80, 80);
+    margin-left: 130px;
+    margin-top: -8px;
+    height: 8px;
+    width: 8px;
+    background-color: rgb(87, 84, 84);
+  }
+  #left{
+    float: left;
+    margin-left: 20px;
+  }
+  #right{
+    float: right;
+    margin-right: 20px;
+  }
+  #left:hover,#right:hover{
+    cursor: pointer;
+  }
+  .content{
+    margin-left: 800px;
+    margin-top: 150px;
+  }
+  .photo{
+    border-radius: 50%;
+    border: 1px solid rgb(82, 80, 80);
+    height: 100px;
+    width: 100px;
+  }
+  .photos{
+    display: flex;
+    gap: 20px;
+  }
+  #more{
+    background-image: url("pk photo.jpg");
+    background-size: 95px 115px;
+  }
+  #less{
+    background-image: url("WhatsApp Image 2023-04-21 at 22.08.44.jpg");
+    background-size: 95px 115px;
+  }
+  .name{
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  .icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  p{
+    width: 340px;
+  }
+  #one,#two{
+    height: 80px;
+    width: 85px;
+  }
+  #one:hover,#two:hover{
+    cursor: pointer;
+  }
+  #one{
+    background-color: rgb(218, 89, 208);
+  }
+  #two{
+    background-color: rgb(56, 110, 217);
+  }
+  #one img,#two img{
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+  }
+  .apps{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .apps div{
+    margin: 10px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 15%;
+    cursor: pointer;
+  }
+  .row1:nth-child(1)
+  {
+    background-image: url("whatsapp.jpeg");
+    background-size: contain;
+  }
+  .row1:nth-child(2)
+  {
+    background-image: url("insta.jpeg");
+    background-size: contain;
+  }
+  .row1:nth-child(3)
+  {
+    background-image: url("linked.png");
+    background-size: contain;
+  }
+  .row1:nth-child(4)
+  {
+    background-image: url("snap.png");
+    background-size: contain;
+  }
+  .row2:nth-child(1)
+  {
+    background-image: url("hotstar.png");
+    background-size: 56px 53px;
+  }
+  .row2:nth-child(2)
+  {
+    background-image: url("netflix.png");
+    background-size: contain;
+  }
+  .row2:nth-child(3)
+  {
+    background-image: url("telegram.png");
+    background-size: contain;
+  }
+  .row2:nth-child(4)
+  {
+    background-image: url("prime.png");
+    background-size: contain;
+  }
+  .row3:nth-child(1)
+  {
+    background-image: url("google.png");
+    background-size: 56px 53px;
+  }
+  .row3:nth-child(2)
+  {
+    background-image: url("amazon.jpeg");
+    background-size: contain;
+  }
+  .row3:nth-child(3)
+  {
+    background-image: url("youtube.png");
+    background-size: contain;
+  }
+  .row3:nth-child(4)
+  {
+    background-image: url("cam.jpeg");
+    background-size: contain;
+  }
+  .row4:nth-child(1)
+  {
+    background-image: url("gpay.png");
+    background-size: 56px 53px;
+  }
+  .row4:nth-child(2)
+  {
+    background-image: url("settings.jpeg");
+    background-size: contain;
+  }
+  .row4:nth-child(3)
+  {
+    background-image: url("spotify.png");
+    background-size: contain;
+  }
+  .row4:nth-child(4)
+  {
+    background-image: url("calc.png");
+    background-size: contain;
+  }
+  #r5{
+    margin-top: 96px;
+    border: 2px solid grey;
+    border-radius: 10%;
+    background-color: rgb(214, 207, 207);
+  }
+  .row5:nth-child(1)
+  {
+    background-image: url("phone.png");
+    background-size: 56px 53px;
+  }
+  .row5:nth-child(2)
+  {
+    background-image: url("compass.jpeg");
+    background-size: contain;
+  }
+  .row5:nth-child(3)
+  {
+    background-image: url("clock.png");
+    background-size: contain;
+  }
+  .row5:nth-child(4)
+  {
+    background-image: url("message.png");
+    background-size: contain;
+  }
+  .row1:nth-child(1):hover,.row1:nth-child(2):hover,.row1:nth-child(3):hover,.row1:nth-child(4):hover,.row2:nth-child(1):hover,.row2:nth-child(2):hover,.row2:nth-child(3):hover,.row2:nth-child(4):hover,.row3:nth-child(1):hover,.row3:nth-child(2):hover,.row3:nth-child(3):hover,.row3:nth-child(4):hover,.row4:nth-child(1):hover,.row4:nth-child(2):hover,.row4:nth-child(3):hover,.row4:nth-child(4):hover,.row5:nth-child(1):hover,.row5:nth-child(2):hover,.row5:nth-child(3):hover,.row5:nth-child(4):hover{
+    transform: scale(0.8)
+  }
+  #np{
+    background-color: yellow;
+    padding: 20px;
+    float: right;
+    margin-top: -60px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    cursor: pointer;
+  }

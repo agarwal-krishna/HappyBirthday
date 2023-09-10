@@ -1,0 +1,42 @@
+body{
+    background-image: url("pexels-aleksandar-pasaric-2341830.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+.birthday{
+    font-size: 80px;
+    margin-left: 18vw;
+    margin-top: 40vh;
+}
+.birthday p{
+    text-shadow: 0 0 50px;
+    color: rgb(49, 50, 52);
+}
+.birthday p::before{
+    content: "Happy Birthday Peaakkaayyy!";
+    color: white;
+    animation: typing 6s linear infinite;
+    position: absolute;
+    left: 18vw;top: 30vh;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes typing {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+button{
+    padding: 16px;
+    color: #2b2227;
+    background-color: rgb(250, 110, 13);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    transform: translate(720px,350px);
+    border: none;
+    cursor: pointer;
+    text-shadow: 0 0 5px;
+}
